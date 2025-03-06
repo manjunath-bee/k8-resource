@@ -4,8 +4,8 @@ metadata:
   name: multi_containers
 spec:
   containers:
-  - name: nginx
-    image: nginx
-
-  - name: alapin
-  
+     - name: nginx
+       image: nginx
+       
+     - name: almalinux
+       image: almalinux:9
