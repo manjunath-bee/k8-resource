@@ -14,7 +14,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: service_nginx 
+  name: snginx 
   labels:
     name: expense
 spec:
