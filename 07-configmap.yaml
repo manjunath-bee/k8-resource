@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: myconfigmap
 data:
-  training: devops
+  training: devops_best
   trainer: manju
