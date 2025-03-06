@@ -1,11 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-service
+  name: nodeportservice
 spec:
   type: NodePort
   selector:
     name: expense
+    demo: node
   ports:
     - protocol: TCP
       port: 80
@@ -16,9 +17,10 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: snginx 
+  name: nodenginx 
   labels:
     name: expense
+    demo: node
 spec:
   containers:
   - name: nginx
