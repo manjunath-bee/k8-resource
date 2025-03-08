@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: manjudbadevops/deployment:1.0.0
+        image: manjudbadevops/deployment:1.1.0
 
 ---
 
